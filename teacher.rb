@@ -1,0 +1,12 @@
+class Teacher < Person
+  attr_reader :specialization
+
+  def initialize(specialization)
+    super(10, 45, 'gala')
+    @specialization = specialization
+  end
+
+  def can_use_services?
+    true
+  end
+end

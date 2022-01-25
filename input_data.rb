@@ -1,8 +1,11 @@
-require "./person.rb"
-require "./student.rb"
-require "./teacher.rb"
+require './person'
+require './student'
+require './teacher'
 
-ab = Person.new(2 ,"ade",1,parent_permission:false )
-ns = Student.new("art")
-puts ab.can_use_services?
-puts ns.parent_permission
+person_ade = Person.new(2, 1, 'ade', parent_permission: false)
+student_john = Student.new('art')
+teacher_gala = Teacher.new('doctor')
+puts person_ade.can_use_services?
+puts teacher_gala.specialization
+puts student_john.parent_permission
+puts teacher_gala.can_use_services?

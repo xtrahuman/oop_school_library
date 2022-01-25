@@ -9,3 +9,4 @@ puts person_ade.can_use_services?
 puts teacher_gala.specialization
 puts student_john.age
 puts teacher_gala.can_use_services?
+puts person_ade.validate_name('adedhdhh10dhdhhdhdh3')

@@ -20,7 +20,7 @@ class Person
     of_age? || @parent_permission == true
   end
 
-  def validate_name(name)
-    @corrector.correct_name(name)
+  def validate_name
+    @corrector.correct_name(@name)
   end
 end

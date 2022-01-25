@@ -2,7 +2,7 @@ require './person'
 require './student'
 require './teacher'
 
-person_ade = Person.new(2, 1, 'ade', parent_permission: false)
+person_ade = Person.new(5, 'ade', parent_permission: false)
 student_john = Student.new('art')
 teacher_gala = Teacher.new('doctor')
 puts person_ade.can_use_services?

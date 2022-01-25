@@ -1,10 +1,8 @@
-# require ".person.rb"
-
 class Student < Person
   attr_reader :classroom
 
   def initialize(classroom)
-    super(4, 18, 'john')
+    super(18, 'john')
     @classroom = classroom
   end
 

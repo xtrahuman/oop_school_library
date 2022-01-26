@@ -2,7 +2,7 @@
 
 # OOP School Library
 
-> building school library using oop 
+> Building a School Library using Object Oriented Programming
 
 ## Built With
 

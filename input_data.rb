@@ -33,6 +33,7 @@ book_rivers = Book.new('rivers', 'chike')
 rental_one = Rental.new('2017-12-22', student_john, book_tales)
 rental_two = Rental.new('2017-12-31', student_john, book_rivers)
 rental_three = Rental.new('2017-12-31', student_peter, book_rivers)
+rental_four = book_rivers.add_rental('2017-12-31', student_peter)
 
 puts book_tales.rental.count
 puts book_rivers.rental.count
@@ -40,3 +41,4 @@ puts book_rivers.rental.count
 rental_one.date
 rental_two.date
 rental_three.date
+rental_four.date

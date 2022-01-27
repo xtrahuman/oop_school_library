@@ -58,7 +58,7 @@ class App
   end
 
   def list_all_books
-    puts 'There are no books yet! Kindly add books.' if @books.empty?
+    puts 'There are no books yet! Kindly add a book.' if @books.empty?
 
     @books.each { |book| puts "Title: #{book.title}, Author: #{book.author}" }
     sleep 0.75

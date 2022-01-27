@@ -1,4 +1,3 @@
-#!/usr/bin/env ruby
 require './person'
 require './student'
 require './teacher'
@@ -11,7 +10,6 @@ class App
     @people = []
     @books = []
     @rentals = []
-    # @class = Classroom.new('grade1')
   end
 
   def run

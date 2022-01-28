@@ -1,3 +1,4 @@
+require 'pry'
 require './person'
 require './student'
 require './teacher'
@@ -123,7 +124,6 @@ class App
 
     print 'Name: '
     name = gets.chomp
-
     print 'Specialization: '
     specialization = gets.chomp
 
@@ -141,7 +141,7 @@ class App
     print 'Author: '
     author = gets.chomp
 
-    book = Book.new(title, author)
+    book = Book.new(tite, author)
     @books << book
 
     puts 'Book added successfully'
@@ -190,5 +190,4 @@ def main
   app = App.new
   app.run
 end
-
 main
